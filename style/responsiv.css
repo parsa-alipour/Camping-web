@@ -1,0 +1,87 @@
+@media(min-width:576px) {
+ 
+}
+@media(min-width:768px){
+    .mobailNavmenu , .navBtn{
+        display: none;
+    } 
+    .desktopemenu{
+        display: flex;
+    }
+    .conection{
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+    }
+    .conectionContent{
+        flex-basis:60% ;
+        padding-right:2rem ;
+    }
+    .conectionBanner{
+        flex-basis: 40%;
+    }
+    .conection::before{
+        width: auto;
+        height: auto;
+        top: -5rem;
+        left: -40rem;
+        background-size: auto;
+        background-position: center left;
+    }
+    .footerApp{
+        display: block;
+    
+    }
+    .footerAppMobaile{
+        display: none;
+    }
+    .footerEnvelopment{
+        display: flex;
+    }
+    .footerLeftContainer{
+        max-width: 50rem;
+    }
+    .footerScroll{
+        left: auto;
+    }
+
+}
+@media(min-width:992px) {
+    .desktopemenulinks{
+        display: block;
+    }
+    .headerContentDescription{
+        max-width: 50rem;
+    }
+    .conectionContent{
+        padding-right: 4rem;
+    }
+}
+@media(min-width:1200px) {
+   .header{
+    min-height: 80rem;
+   }
+   .conection{
+    justify-content: space-between;
+   }
+   .conectionContent{
+    flex-basis: auto;
+    width: 60rem;
+}
+.conectionBanner{
+       flex-basis: auto;
+       width: 42rem;
+   }
+   .footerEnvelopment{
+    justify-content: space-between;
+   }
+   .conection::before{
+    top: -15rem;
+    left: -15rem;
+   }
+}
+@media(min-width:1400px) {
+    .conection{
+        padding: 3rem 6rem;
+    }
+}
